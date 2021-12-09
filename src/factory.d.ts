@@ -18,7 +18,7 @@ declare namespace TtyTable {
     color?: string;
     footerAlign?: string;
     footerColor?: string;
-    formatter: Formatter;
+    formatter?: Formatter;
     headerAlign?: string;
     headerColor?: string;
     marginLeft?: number;
@@ -28,7 +28,7 @@ declare namespace TtyTable {
     paddingRight?: number;
     paddingTop?: number;
     value: string;
-    width: string | number;
+    width?: string | number;
   }
 
   export interface Options {
